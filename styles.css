@@ -1,11 +1,38 @@
+body {
+    font-family: 'Clash Display', sans-serif;
+}
+
 #section-main {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5,1fr);
     grid-template-rows: 300px;
+}
+
+p {
+    margin: 5px 0;
+    color: white;
+    text-shadow: 0 0 5px #000;
+    text-transform: uppercase;
 }
 
 .container {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#btn-gnrt{
+    display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px black;
+    transition: 0.5s;
+    font: inherit;
+    font-size: larger;
+    margin: 5px;
+    font-weight: 500;
 }
