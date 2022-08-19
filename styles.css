@@ -1,0 +1,11 @@
+#section-main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 300px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
