@@ -33,7 +33,7 @@ p {
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(5,200px);
-    grid-template-rows: 200px;
+    grid-template-rows: 300px;
 }
 
 
