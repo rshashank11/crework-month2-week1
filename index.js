@@ -8,6 +8,7 @@ btnGenerate.addEventListener("click", colorGenerate);
 
 function colorGenerate() {
     mainSection.style.display = "grid";
+    //5 different color generator.
     for (let i = 1; i <= 5; i++) {
         let red = Math.floor(Math.random() * 256);
         let green = Math.floor(Math.random() * 256);
@@ -17,6 +18,8 @@ function colorGenerate() {
         let greenString = green.toString(16);
         let blueString = blue.toString(16);
 
+
+        //Padding zeroes to single digit hex-values.
         if(redString.length < 2) {
            redString =  redString.padStart(2, '0');
         }
