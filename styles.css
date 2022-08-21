@@ -56,7 +56,7 @@ p {
     filter: brightness(125%);
 }
 
-#btn-gnrt{
+#btn-gnrt {
     margin-top: 20px;
     color: #000;
     background: #fff;
@@ -70,4 +70,8 @@ p {
     font: inherit;
     font-size: larger;
     font-weight: 500;
+}
+
+#btn-gnrt:hover {
+    opacity: 0.6;
 }
